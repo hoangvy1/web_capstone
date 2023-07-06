@@ -1,0 +1,56 @@
+.form-row {
+    display: flex;
+    width: 300px;
+    overflow: hidden;
+    white-space: nowrap;
+    padding-left: 80px;
+  }
+  
+  .form-control {
+    width: 100px;
+    position: relative;
+    margin-left: 20px;
+  }
+
+  .label{
+    position: relative;
+    margin-left: -25px;
+  }
+  
+  .center {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 100px auto;
+    width: 30%;
+    box-shadow: 0px 0px 50px 10px rgba(0, 0, 0, 0.1);
+    vertical-align: top;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    border-radius: 5px;
+  }
+  
+  .speedometer {
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+  }
+  
+  .form-settings {
+    background-color: #007fff;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    min-width: 200px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .title {
+    margin-top: 30px;
+    font-family: "Open Sans", sans-serif;
+    font-size: 26px;
+  }

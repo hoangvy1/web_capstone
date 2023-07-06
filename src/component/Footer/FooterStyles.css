@@ -1,0 +1,33 @@
+.footer{
+    padding: 4rem 6rem;
+    background: #000;
+    color: #fff;
+}
+
+.top{
+    display: flex;
+    align-items: center;
+    text-align: start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.top i{
+    color: #fff;
+    font-size: 2rem;
+    margin-left: 1rem;
+}
+
+.top i:hover{
+    color: #01959a;
+}
+
+@media screen and (max-width:850px) {
+    .Footer{
+        padding: 4rem 2rem;
+    }
+
+    .Footer i{
+        margin: 1rem 1rem 0 0;
+    }
+}
